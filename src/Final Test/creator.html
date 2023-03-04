@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./home.css">
+	<link rel="stylesheet" href="./creator.css">
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<h1 class="main-title"><span class="title-b-col">Quath</span>Blog</h1>
+		<nav class="nav-btns">
+			<div class="s-b">
+			</div>
+			<div class="other-btns">
+				<div class="other-btns">
+					<select class="nav-btn user" name="selection" id="">
+						<option class="ls" value="none">None</option>
+						<option class="ls" value="create">Create Blog</option>
+						<option class="ls" value="home">Home</option>
+					</select>
+					<!-- <button class="nav-btn user">User</button> -->
+				</div>
+			</div>
+		</nav>
+
+	</header>
+	<p class="title b">Create a new Post</p>
+
+	<div class="create-section">
+		<form action="" class="creator">
+			<p class="b-sub-title">Main</p>
+			<label class="lb-c d" for="title">Post Title</label>
+			<input class="field-txt" value="" type="text" id="post-title" name="title">
+
+			<!-- <label class="lb-c"  for="image">Image</label> -->
+			<!-- <input class="field-txt"  type="file" id="image" name="image" accept="image/*"> -->
+			<div class="img-select">
+				<input class="upload-btn" type="file" accept="image/*"></input>
+
+			</div>
+			
+			<label for="selct" class="lb-c" id="category">Category</label>
+			<select class="field-txt opts"  name="category" id="selct">
+				<option value="politics" class="opt">Politic</option>
+				<option value="science" class="opt">Science</option>
+				<option value="entertainment" class="opt">Entertainment</option>
+				<option value="news" class="opt">News</option>
+			</select>
+	
+			<label class="lb-c" for="tags">Tags</label>
+			<input class="field-txt" type="text" id="tags" name="tags">
+
+			<p class="b-sub-title">Content</p>
+			<label class="lb-c d" for="c-title">Title</label>
+			<input class="field-txt"  type="text" id="c-title" name="c-title">
+
+			<label class="lb-c d" for="content">Content</label>
+			<textarea class="field-txt" name="" id="content" cols="30" rows="10"></textarea>
+
+
+			<div class="end-btn-container">
+				<button class="end-btn">Quit</button>
+				<button class="end-btn">Publish</button>
+
+			</div>
+
+		</form>
+
+	</div>
+
+
+</body>
+</html>

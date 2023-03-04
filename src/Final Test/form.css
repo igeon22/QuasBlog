@@ -1,0 +1,74 @@
+.sign-cont{
+	width: 300px;
+	height: 260px;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px grey;
+	background-color: #000000;
+	color: #fde047;
+}
+
+.sign-cont>form{
+	display: flex;
+	flex-direction: column;
+
+}
+
+.lb{
+	display: block;
+	margin-top: 15px;
+	font-family: calibri;
+	font-size: 1.15em;
+}
+
+.field{
+	/* font-family: calibri; */
+	text-align: center;
+	font-weight: bold;
+	/* border-radius: 7px; */
+	padding: 3px;
+	border: none;
+	/* box-shadow: 2px 2px 2px #326ece; */
+}
+
+.field:focus{
+	outline: none;
+}
+
+
+
+.submit-btn{
+
+	font-family: calibri;
+	font-weight: bold;
+	width: 150px;
+	align-self: center;
+	background-color: #fde047;
+	color: #000000;
+	border: none;
+	border-radius: 4px;
+	font-size: 1.1em;
+	padding: 5px 0;
+	opacity: 1;
+}
+
+.lg{
+	margin-top: 20px;
+}
+
+.submit-btn:hover{
+	transition: 0.24 transition ease ;
+	opacity: 0.8;
+}
+
+.submit-btn:active{
+	box-shadow: 2px 2px 2px  #326ece;
+}
+
+.upper-cont{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+

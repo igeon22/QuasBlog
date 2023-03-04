@@ -1,0 +1,101 @@
+
+.create-section{
+	max-width: 800px;
+	background-color: #000000;
+	min-height: 100vh;
+	align-self: center;
+	margin: 0 auto;
+	padding: 10px;
+	color: #fde047;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px grey;
+	margin-bottom: 10px;
+}
+
+.creator{
+	display: flex;
+	flex-direction: column;
+}
+
+.lb-c{
+	margin-top: 20px;
+	font-size: 1.15em;
+}
+
+.field-txt{
+	width: 80%;
+	font-family: calibri;
+	font-weight: bold;
+	/* color: rebeccapurple; */
+
+}
+
+.field-txt:focus{
+	outline: none;
+}
+
+.opts{
+	width: 30%;
+}
+
+#category{
+	display: inline;
+}
+
+.d{
+	margin-top: 0;
+}
+
+.upload-btn{
+	/* width: 120px; */
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 10px;
+	/* background-color: #fde047; */
+
+
+}
+
+.b-sub-title{
+	font-size: 1.2em;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.opts{
+	background-color: #fde047;
+	padding: 2px;
+	font-weight: bold;
+	font-size: 0.8em;
+}
+
+#content{
+	height: 300px;
+	/* width: 90%; */
+	word-wrap: break-word;
+	overflow-y: scroll;
+
+}
+
+.end-btn{
+	width: 100px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.0em;
+	background-color: #fde047;
+	border: none;
+	opacity: 1;
+	padding: 4px 0;
+}
+
+.end-btn:hover{
+	transition: 0.24s  opacity ease;
+	opacity: 0.9;
+}
+
+
+
+.end-btn-container{
+	margin-top: 15px;
+	align-self: flex-end;
+}

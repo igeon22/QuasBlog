@@ -1,0 +1,305 @@
+html{
+	background-color: #ffffff;
+}
+
+body{
+	background-color: #fdfeff;
+	padding: 5px;
+	font-family: calibri;
+	font-weight: bold;
+	width: 95%;
+	max-width: 1300px;
+	margin: 0 auto;
+	min-height: 100vh;
+}
+
+
+.main-title{
+	margin-top: 1px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	/* padding-top: 2px; */
+	margin-bottom: 10px;
+}
+
+.title-b-col{
+	color: #fde047;
+}
+
+.img-container{
+	width: 360px;
+	margin: 0 auto;
+}
+
+.imgs{
+	width: 350px;
+	height: 250px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 3px grey;
+}
+.img-name{
+	text-align: center;
+	font-style: italic;
+	color: #000000;
+}
+
+.category{
+	font-size: 1em;
+	margin-bottom: 0;
+	padding: 0;
+	color: red;
+	font-family: tahoma;
+	font-weight: light;
+	font-style: italic;
+}
+
+.title{
+	margin-top: 5px;
+	text-align: left;
+	font-size: 1.4em;
+	text-decoration: underline;
+}
+
+.tag{
+	color: #e11d48;
+}
+
+.sub-title{
+	font-size: 1.3em;
+	text-decoration: underline;
+	font-family:tahoma;
+	font-weight: lighter;
+
+	
+}
+
+.text{
+	font-family: calibri;
+	font-weight: lighter;
+	font-size: 1.2em;
+	word-break:keep-all;
+	word-wrap:break-word;
+	margin: 0 auto;
+}
+
+.other-links{
+
+}
+
+.link-text{
+	color: #fde047;
+	text-align: center;
+	border: none;
+	padding: 8px 5px;
+	margin-bottom: 2px;
+	display: block;
+	font-size: 0.9em;
+	width: 90%;
+	max-width: 800px;
+	font-family: calibri;
+	margin: 10px auto;
+	font-weight: bold;
+	background-color: black;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px grey;
+}
+
+.link-text:hover{
+	transition: 0.24s background-color ease-in-out;
+	transition: 0.24s color ease-in-out;
+	background-color: #fde047;
+	color: black;
+}
+
+.end{
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	color: black;
+}
+
+.suggestion-text{
+	font-size: 1.2em;
+	text-decoration: underline;
+	color: #eab308;
+}
+
+.search-bar-cont{
+	margin: 0;
+	width: max-content;
+	/* border-radius: 5px; */
+	display: flex;
+	box-shadow: 2px 2px 2px gray;
+	border: none;
+}
+
+
+.search-bar{
+	border: none;
+	/* padding: 5px; */
+	border: 1px solid black;
+	border-right: none;
+	/* border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; */
+	font-family: calibri;
+
+}
+.search-bar:focus{
+	outline: none;
+
+}
+
+.search-btn{
+	border: none;
+	font-family: calibri;
+	font-weight: bold;
+	background-color: black;
+	color: #fde047;
+	/* border-radius: 8px; */
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	opacity: 1;
+}
+
+.search-btn:hover{
+	transition: 0.24s opacity ease-out ;
+	opacity: 0.8;
+}
+
+
+.s-b{
+	width: 30%;
+	display: flex;
+	justify-content: center;
+}
+
+.nav-btns{
+	/* background-color: red; */
+	margin: 0;
+	display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+}
+
+.other-btns{
+	width: 70%;
+	display: flex;
+	justify-content: flex-end;
+	gap: 10px;
+	
+}
+
+.nav-btn{
+	font-family: calibri;
+	font-weight: bold;
+	padding: 5px 19px;
+	border: none;
+	color: #fde047;
+	background-color: #000000;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px grey;
+	height: 29px;
+}
+
+
+
+
+.user{
+	margin-right: 3px;
+}
+
+
+.author{
+	font-weight: bold;
+	font-style: italic;
+	font-family: Montserrat;
+}
+
+.author-name{
+	text-decoration: underline;
+	color:#e11d48;
+}
+
+option:hover{
+	background-color: #fde047;
+	color: black;
+}
+
+.b{
+	text-align: center;
+	text-decoration: none;
+	margin-top: 25px;
+	color:#f5d84c;
+	/* text-decoration: underline; */
+	border-bottom: 2px solid #f5d84c;
+}
+
+
+
+.modified{
+	box-shadow: none;
+	width: 250px;
+	height: 250px;
+	border-radius: 0;
+}
+
+.block-container{
+	width: 270px;
+	padding: 25px 10px;
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 8px;
+	box-shadow: 3px 3px 3px grey;
+}
+
+.block-title{
+	color: #fde047;
+	word-wrap: break-word;
+	width: 250px;
+	height: 57px;
+	overflow: hidden;
+	/* font-size: 1.15em; */
+}
+
+.read-btn{
+	font-family: calibri;
+	font-weight: bold;
+	background-color: #f5d84c;
+	font-size: 1.10em;
+	padding: 10px 15px;
+	border: none;
+}
+
+.read-btn:hover{
+	transition: 0.44s opacity ease ;
+	opacity: 0.9;
+}
+
+.read-btn:active{
+	box-shadow: 2px 2px 2px #f5d84c;
+}
+
+.all-blocks{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+
+
+/* .modified */
+/* .text */
+/* .block-container */
+
+.ref-cont{
+	display: flex;
+	justify-content: flex-end;
+	padding: 3px;
+	margin-bottom: 5px;
+}
