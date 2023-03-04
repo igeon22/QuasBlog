@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/QuasBlog/static/css/main.ab03a8d5.css",
+    "main.js": "/QuasBlog/static/js/main.fd46232f.js",
+    "static/media/science3.jpg": "/QuasBlog/static/media/science3.7a44b756729a39a5d7ce.jpg",
+    "static/media/none3.jpg": "/QuasBlog/static/media/none3.6c171193415fd9ed1496.jpg",
+    "static/media/entertainment3.jpg": "/QuasBlog/static/media/entertainment3.5524874e45a4fdae4578.jpg",
+    "static/media/politics3.jpg": "/QuasBlog/static/media/politics3.0a5b9daf8ddb0ab6655e.jpg",
+    "static/media/news2.jpg": "/QuasBlog/static/media/news2.c4a59b8499b5a654a372.jpg",
+    "static/media/news3.jpg": "/QuasBlog/static/media/news3.06a40b77cabb742f0529.jpg",
+    "static/media/image_search_1676504872613.jpg": "/QuasBlog/static/media/image_search_1676504872613.9238b877accff21bbad7.jpg",
+    "static/media/education3.jpg": "/QuasBlog/static/media/education3.4348ada8c5e0db53ac67.jpg",
+    "static/media/politics.jpg": "/QuasBlog/static/media/politics.cad4cebb09402933533c.jpg",
+    "static/media/image_search_1676505334131.jpg": "/QuasBlog/static/media/image_search_1676505334131.57fdb82b97e7497f3944.jpg",
+    "static/media/image_search_1676505088354.jpg": "/QuasBlog/static/media/image_search_1676505088354.3d676e38ea2b600c97ad.jpg",
+    "static/media/image_search_1676505462838.jpg": "/QuasBlog/static/media/image_search_1676505462838.d8046ca8a1e3dbedd3fd.jpg",
+    "static/media/image_search_1676505267384.jpg": "/QuasBlog/static/media/image_search_1676505267384.dab683161d8e4dbdfbec.jpg",
+    "static/media/none.jpg": "/QuasBlog/static/media/none.97e49cc62c669a07ce4b.jpg",
+    "static/media/entertainment.jpg": "/QuasBlog/static/media/entertainment.8ee233efd85a415941b9.jpg",
+    "static/media/image_search_1676505280119.jpg": "/QuasBlog/static/media/image_search_1676505280119.13d11b88ac4d9e9be0cc.jpg",
+    "static/media/image_search_1676505092571.jpg": "/QuasBlog/static/media/image_search_1676505092571.0cbf0006f806ec8abba8.jpg",
+    "static/media/science.jpg": "/QuasBlog/static/media/science.d35f2524dfa0195106be.jpg",
+    "static/media/news.jpg": "/QuasBlog/static/media/news.8b28fa3630c370b3b469.jpg",
+    "static/media/image_search_1676505346434.jpg": "/QuasBlog/static/media/image_search_1676505346434.7b2bc126ca2ac1846191.jpg",
+    "static/media/image_search_1676505125786.jpg": "/QuasBlog/static/media/image_search_1676505125786.231e6f99ff61a12e9836.jpg",
+    "static/media/image_search_1676505095309.jpg": "/QuasBlog/static/media/image_search_1676505095309.794d445865b4bdf684ab.jpg",
+    "static/media/logo.svg": "/QuasBlog/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/QuasBlog/index.html",
+    "main.ab03a8d5.css.map": "/QuasBlog/static/css/main.ab03a8d5.css.map",
+    "main.fd46232f.js.map": "/QuasBlog/static/js/main.fd46232f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab03a8d5.css",
+    "static/js/main.fd46232f.js"
+  ]
+}
